@@ -1,5 +1,5 @@
 {
-  "name": "Buzz-Word-Bingo",
+  "name": "buzz-word-bingo",
   "version": "1.0.0",
   "description": "**About the game**",
   "main": "server.js",
@@ -11,13 +11,16 @@
     "type": "git",
     "url": "git+https://github.com/jhoun/Buzz-Word-Bingo.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jhoun/Buzz-Word-Bingo/issues"
   },
-  "homepage": "https://github.com/jhoun/Buzz-Word-Bingo#readme"
+  "homepage": "https://github.com/jhoun/Buzz-Word-Bingo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
 },
 "xo": {
     "esnext": true,
